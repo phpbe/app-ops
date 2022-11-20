@@ -1,0 +1,25 @@
+{
+  "name": "be/app-ops",
+  "type": "library",
+  "description": "自动化运维",
+  "keywords": [
+    "Ops",
+    "自动化运维"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "1024i team",
+      "email": "1024i@1024i.com",
+      "homepage": "https://www.1024i.com/team"
+    }
+  ],
+  "require": {
+    "be/be": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Be\\App\\Ops\\": "src/"
+    }
+  }
+}
